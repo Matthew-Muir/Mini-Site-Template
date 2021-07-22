@@ -12,7 +12,9 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link href="/css/site.css" rel="stylesheet">
-   <!-- Convert this to an external style sheet -->
+    <script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <!-- Convert this to an external style sheet -->
 
 </head>
 
@@ -20,7 +22,7 @@
 <!--Nav Section-->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">APP NAME</a>
+        <a class="navbar-brand" href="#"><img src="/img/favicon.png" class="d-inline-block align-text-top" height="30"> APP NAME</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -54,16 +56,21 @@
        </div>
     </main>
     <!--Footer Section-->
-    <footer class="footer mt-auto py-3 sticky-footer">
+    <footer class="footer mt-auto py-3 sticky-footer bg-dark">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col text-light">
-                    <div><span class="text-muted">&copy;2021 </span>Matthew Muir | matthtmuir@gmail.com</div>
+            <div class="row row-cols-1 row-cols-lg-3 gy-2">
+                <div class="col d-flex order-last order-lg-first text-light align-content-center justify-content-center mt-md-4">
+                    <div class="copyright"><span class="text-muted">&copy;2021 </span>Matthew Muir | matthewtmuir@gmail.com</div>
                 </div>
-                <div class="col">
-                    <img src="/img/whiteMlolg.png" alt="mylogo" height="75">
+                <div class="col d-flex align-items-center justify-content-center">
+                    <img src="/img/whitetexttrans.png" alt="mylogo" height="50">
                 </div>
-                <div class="col"></div>
+                <div class="col d-flex align-items-center justify-content-center">
+                    <div class="row">
+                        <div class="col social"><a target="_blank" href="https://www.linkedin.com/in/matthewmuir-wa/"><i class="fab fa-linkedin fa-3x"></i></a></div>
+                        <div class="col social"><a target="_blank" href="https://github.com/Matthew-Muir"><i class="fab fa-github-square fa-3x"></i></a></div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>

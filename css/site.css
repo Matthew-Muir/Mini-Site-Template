@@ -1,8 +1,15 @@
 :root {
     --primary-color: #1d5888;
-    --secondary-color: #ff993b;
+    --secondary-color: #d8b2a7;
     --dark-color: #292929;
     --white-color: #e7e7e7;
+    --purp-color: #230244
+}
+
+@media only screen and (max-width: 400px) {
+div.copyright {
+    font-size: 14px;
+}
 }
 
 body {
@@ -29,5 +36,19 @@ main>.container {
     left: 0;
     bottom: 0;
     width: 100% ;
+}
+
+footer {
+    padding-right: 1rem;
+}
+
+footer .social>a {
+    color: var(--white-color);
+    opacity: 0.75;
+}
+
+footer .social>a:hover {
+opacity: 0.9;
+
 }
 
